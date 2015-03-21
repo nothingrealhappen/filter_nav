@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>菜单测试</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="menu" id="menu">
+
+      <div class="menu-header">
+        来选款毛衣
+      </div>
+
+      <div class="option-item clearfix js-option-item" data-option="close">
+        <div class="headtitle">
+          品牌:
+        </div>
+        <ul class="detail js-detail">
+          <li><a href="javascript:;" data-value="close1">服装1</a></li>
+          <li><a href="javascript:;" data-value="close2">服装2</a></li>
+          <li><a href="javascript:;" data-value="close3">服装3</a></li>
+          <li><a href="javascript:;" data-value="close4">服装4</a></li>
+          <li><a href="javascript:;" data-value="close5">服装5</a></li>
+          <li><a href="javascript:;" data-value="close6">服装6</a></li>
+          <li><a href="javascript:;" data-value="close7">服装7</a></li>
+          <li><a href="javascript:;" data-value="close8">服装8</a></li>
+          <li><a href="javascript:;" data-value="close9">服装9</a></li>
+          <li><a href="javascript:;" data-value="close10">服装10</a></li>
+          <li><a href="javascript:;" data-value="close11">服装11</a></li>
+        </ul>
+        <div class="addmore">
+          <div class="addmore-button js-addmore-button">
+            <span class="icon-plus">+</span>
+            <span class="txt">多选</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="option-item clearfix js-option-item" data-option="color">
+        <div class="headtitle">
+          颜色:
+        </div>
+        <ul class="detail js-detail">
+          <li><a href="javascript:;" data-value="color1">颜色1</a></li>
+          <li><a href="javascript:;" data-value="color2">颜色2</a></li>
+          <li><a href="javascript:;" data-value="color3">颜色3</a></li>
+          <li><a href="javascript:;" data-value="color4">颜色4</a></li>
+        </ul>
+        <div class="addmore">
+          <div class="addmore-button js-addmore-button">
+            <span class="icon-plus">+</span>
+            <span class="txt">多选</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="moreoption" id="moreoption">
+        <div class="option-item clearfix js-option-item" data-option="size">
+          <div class="headtitle">
+            大小:
+          </div>
+          <ul class="detail js-detail">
+            <li><a href="javascript:;" data-value="size1">大小1</a></li>
+            <li><a href="javascript:;" data-value="size2">大小2</a></li>
+            <li><a href="javascript:;" data-value="size3">大小3</a></li>
+            <li><a href="javascript:;" data-value="size4">大小4</a></li>
+          </ul>
+          <div class="addmore">
+            <div class="addmore-button js-addmore-button">
+              <span class="icon-plus">+</span>
+              <span class="txt">多选</span>
+             </div>
+          </div>
+        </div><!--option-item end-->
+      </div>
+
+      <div class="more-btn-container">
+        <a class="moreoption-btn" id="moreoption-btn">
+          更多选项（balabala...）
+        </a>
+      </div>
+
+      <div class="showoption" id="showoption">
+        <div class="header">
+          您选择了：
+        </div>
+        <a href="javascript:;" class="template showoption-item">
+          <span class="js-txt">服装1</span>
+          <span class="icon-close">x</span>
+        </a>
+      </div>
+
+    </div><!--menu end-->
+
+    <div id="ajaxdata"></div>
+  </div><!--container end-->
+  <script src="js/jquer.min.js"></script>
+  <script src="js/base.js"></script>
+</body>
+</html>

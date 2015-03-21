@@ -1,0 +1,137 @@
+body {
+  font-size: 16px;
+}
+
+.clearfix:before, .clearfix:after { content:""; display:table; } .clearfix:after { clear:both; overflow:hidden; } .clearfix { zoom:1; /* IE < 8 */ }
+
+.container {
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu .showoption {
+  margin: 20px 0;
+  display: none;
+}
+
+.menu .showoption.show {
+  display: block;
+}
+
+.menu .showoption .header {
+  display: inline-block;
+}
+
+.menu .showoption .showoption-item {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #e00;
+  background-color: #efefef;
+  color: #000;
+  margin: 0 5px;
+}
+
+.menu .showoption .template {
+  display: none;
+}
+
+.menu .showoption .icon-close {
+  color: #e00;
+}
+
+.menu .menu-header {
+  border: 1px solid #ddd;
+  border-bottom: none;
+  background-color: #efefef;
+  line-height: 35px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.menu .option-item {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 26px;
+}
+
+.menu a {
+  color: #005aa1;
+  text-decoration: none;
+}
+
+.menu .headtitle {
+  font-weight: bold;
+  color: #666;
+  width: 10%;
+  text-align: right;
+  float: left;
+}
+
+.menu .detail {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  float: left;
+}
+
+.menu .detail li {
+  display: inline-block;
+  padding: 0 5px;
+  width: 100px;
+}
+
+.menu .addmore {
+  width: 10%;
+  float: left;
+  color: #005aa1;
+}
+
+.menu .addmore-button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 5px;
+  font-size: 0.9rem;
+  background-color: #efefef;
+  border: 1px solid #ddd;
+  line-height: 1;
+}
+
+.menu .addmore-button.on {
+  background-color: #aaa;
+}
+
+.menu .addmore .icon-plus {
+  font-weight: bold;
+}
+
+.menu .moreoption {
+  display: none;
+}
+
+.menu .moreoption.show {
+  display: block;
+}
+
+.menu .more-btn-container {
+  text-align: center;
+}
+.menu .moreoption-btn {
+  display: inline-block;
+  padding: 3px 20px;
+  border: 1px solid #ddd;
+  border-top-color: #fff;
+  position: relative;
+  z-index: 2;
+  top: -1px;
+  cursor: pointer;
+}
+
+
